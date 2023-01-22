@@ -32,3 +32,18 @@
     transform: rotate(360deg);
   }
 }
+h1 {
+  margin: 0;
+  background-color: rgb(6, 29, 90);
+  color: whitesmoke;
+  padding: 14px;
+}
+.main {
+  background-color: rgb(161, 77, 77);
+  color: white;
+  padding: 5px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
