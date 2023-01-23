@@ -7,8 +7,8 @@ function Movielist(props) {
         <img src={props.img} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
-          <p className="card-text">{props.year}</p>
-          <p className="card-text">{props.imdbID}</p>
+          <p className="card-text"><strong>Year:</strong>{props.year}</p>
+          
           <strong><p>{props.writer}</p></strong>
         </div>
       </div>
